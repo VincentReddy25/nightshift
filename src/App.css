@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Navbar Starts */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 10%;
+
+  position: sticky;
+  top: 0%;
+  z-index: 99999;
+  background: white;
+}
+
+.navbar>div {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.navbar h1 {
+  color: hsl(240, 100%, 40%);
+}
+
+.navbar nav ul {
+  display: flex;
+  gap: 3em;
+}
+
+.navbar nav ul li {
+  list-style-type: none;
+}
+
+.navbar div>a {
+  border: 2px solid black;
+  padding: 1em 2.5em;
+}
+
+/* Navbar Ends */
+
+
+/* Section Starts */
+
+section {
+  display: grid;
+  gap: 3em;
+}
+
+section img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.container {
+  background: lightgray;
+  padding: 2em;
+  border-radius: 3px;
+}
+
+.upload {
+  margin: 0 auto;
+  padding: 2em 4em;
+  background: white;
+  border-radius: inherit;
+}
+
+.upload>* {
+  margin: .5em 0;
+}
+
+.upload h2 {
+  text-align: center;
+}
+
+.inputfile {
+  display: none;
+}
+
+.file {
+  padding: 2em 5em;
+}
+
+label {
+  display: inline-block;
+  display: flex;
+  gap: 3em;
+  width: 100%;
+}
+
+label .filebox {
+  width: 100%;
+  border: solid;
+}
+
+.file-button {
+  background: black;
+  color: white;
+  padding: 1em 3em;
+  flex-shrink: 0;
+  border-radius: 3px;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.flexbox input {
+  padding: 1em 4em;
+  margin: 0 2em;
+  background: #000;
+  color: white;
+  border-radius: 3px;
+}
+
+form p {
+  margin: 1em 0;
+}
+
+
+/* Section Ends */
